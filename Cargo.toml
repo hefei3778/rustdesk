@@ -1,11 +1,11 @@
 [package]
-name = "X-desk"
+name = "Rustdesk"
 version = "1.3.2"
-authors = ["X-desk <info@rustdesk.com>"]
+authors = ["Rustdesk <info@rustdesk.com>"]
 edition = "2021"
 build= "build.rs"
-description = "X-Desk Remote Desktop"
-default-run = "X-desk"
+description = "Rustdesk Remote Desktop"
+default-run = "Rustdesk"
 rust-version = "1.75"
 
 [lib]
@@ -176,9 +176,9 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2024 Purslane Ltd. All rights reserved."
-ProductName = "X-Desk"
-FileDescription = "X-Desk Remote Desktop"
-OriginalFilename = "X-desk.exe"
+ProductName = "Rustdesk"
+FileDescription = "Rustdesk Remote Desktop"
+OriginalFilename = "Rustdesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"
@@ -193,7 +193,7 @@ os-version = "0.2"
 hound = "3.5"
 
 [package.metadata.bundle]
-name = "X-Desk"
+name = "Rustdesk"
 identifier = "com.carriez.rustdesk"
 icon = ["res/32x32.png", "res/128x128.png", "res/128x128@2x.png"]
 osx_minimum_system_version = "10.14"
